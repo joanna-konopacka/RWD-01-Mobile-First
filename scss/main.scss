@@ -1,0 +1,35 @@
+.container {
+	@media only screen and (min-width: 600px) {
+		display: flex;
+		box-sizing: border-box;
+		margin: 0 auto;
+		padding: 0;
+		height: 200px;
+	}
+
+	.sidebar h1 {
+		width: 200px;
+		height: 200px;
+		margin: 0;
+
+		@media only screen and (max-width: 600px) {
+			background-color: rgb(16, 16, 16);
+		}
+		@media only screen and (min-width: 600px) {
+			background-color: rgb(16, 16, 16);
+			width: 50px;
+		}
+	}
+	section h1 {
+		width: 200px;
+		height: 200px;
+		margin: 0;
+		@media only screen and (max-width: 600px) {
+			background-color: rgb(120, 126, 180);
+		}
+		@media only screen and (min-width: 600px) {
+			width: 350px;
+			background-color: rgb(120, 126, 180);
+		}
+	}
+}
